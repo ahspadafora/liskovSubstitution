@@ -7,3 +7,17 @@
 
 import Foundation
 
+fileprivate class PaymentManager {
+    
+    func makeCashPayment(amount: Double) {
+        // perform here
+    }
+    
+    func makeVisaPayment(amount: Double) {
+        
+    }
+    
+    func makeMasterCardPayment(amount: Double) {
+        
+    }
+}

@@ -17,3 +17,32 @@
 
 import Foundation
 
+// adheres to open-close principle by being closed for modification
+fileprivate protocol PaymentProtocol {
+    func makePayment(amount: Double)
+}
+
+//v.1.0
+fileprivate class CashPayment: PaymentProtocol {
+    func makePayment(amount: Double) {
+        // perform cash payment
+    }
+}
+//v.1.0
+fileprivate class VisaPayment: PaymentProtocol {
+    func makePayment(amount: Double) {
+        // perform visa payment
+    }
+}
+//v.2.0 -> adheres to open-close principle by extending the payment protocl with a new payment type (Mastercard)
+fileprivate class MasterCardPayment: PaymentProtocol {
+    func makePayment(amount: Double) {
+        // perform mastercard payment
+    }
+}
+
+fileprivate class PaymentManager {
+    func makePayment(amount: Double, payment: PaymentProtocol) {
+        payment.makePayment(amount: amount)
+    }
+}
