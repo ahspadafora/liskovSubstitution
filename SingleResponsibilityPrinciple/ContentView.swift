@@ -19,3 +19,18 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+/*
+ S.O.L.I.D is one of the most popular sets of design principles in object-oriented software development.
+ 
+ Robert C Martin/ Uncle Bob
+ 2000 "Design principles and design patterns"
+ 
+ 5 golden rules
+ Single Responsibility Principle
+ Open-closed Principle
+ Liskov substitution principle
+ Interface segregation principle
+ Dependency Inversion principle
+ */
+

@@ -13,6 +13,7 @@
 		BAB70F2327A60E76006DDE81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB70F2227A60E76006DDE81 /* Preview Assets.xcassets */; };
 		BAB70F2E27A60E76006DDE81 /* SingleResponsibilityPrincipleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB70F2D27A60E76006DDE81 /* SingleResponsibilityPrincipleTests.swift */; };
 		BAB70F3927A60E76006DDE81 /* SingleResponsibilityPrincipleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB70F3827A60E76006DDE81 /* SingleResponsibilityPrincipleUITests.swift */; };
+		BAB70F4A27A6107D006DDE81 /* SOLID in Resources */ = {isa = PBXBuildFile; fileRef = BAB70F4927A6107D006DDE81 /* SOLID */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		BAB70F3427A60E76006DDE81 /* SingleResponsibilityPrincipleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleResponsibilityPrincipleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB70F3827A60E76006DDE81 /* SingleResponsibilityPrincipleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleResponsibilityPrincipleUITests.swift; sourceTree = "<group>"; };
 		BAB70F3A27A60E76006DDE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB70F4927A6107D006DDE81 /* SOLID */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SOLID; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				BAB70F1B27A60E73006DDE81 /* SingleResponsibilityPrincipleApp.swift */,
 				BAB70F1D27A60E73006DDE81 /* ContentView.swift */,
+				BAB70F4927A6107D006DDE81 /* SOLID */,
 				BAB70F1F27A60E76006DDE81 /* Assets.xcassets */,
 				BAB70F2427A60E76006DDE81 /* Info.plist */,
 				BAB70F2127A60E76006DDE81 /* Preview Content */,
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB70F4A27A6107D006DDE81 /* SOLID in Resources */,
 				BAB70F2327A60E76006DDE81 /* Preview Assets.xcassets in Resources */,
 				BAB70F2027A60E76006DDE81 /* Assets.xcassets in Resources */,
 			);
